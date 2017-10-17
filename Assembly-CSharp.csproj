@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{9C2123C0-C65A-77AB-9864-3DBB3847BE7F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -93,8 +93,10 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRWaitCursor.cs" />
-     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\GrabbingObjects.cs" />
      <Compile Include="Assets\Scripts\TouchController.cs" />
+     <Compile Include="Assets\TornadoBanditsStudio\Low Poly Free Pack\Scripts\TBS_CameraMovement.cs" />
+     <Compile Include="Assets\TornadoBanditsStudio\Low Poly Free Pack\Water\TBS_Water.cs" />
      <None Include="Assets\OVR\Resources\OVRMRUnlitTransparent.shader" />
      <None Include="Assets\OVR\Resources\OVRMRChromaKey.cginc" />
      <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />

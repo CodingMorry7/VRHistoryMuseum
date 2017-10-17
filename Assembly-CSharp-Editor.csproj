@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5A0769DA-25DA-A68D-BA58-6ED404CB536B}</ProjectGuid>
+    <ProjectGuid>{C2E1A471-24CA-1204-EFCD-8919245B8642}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -59,6 +59,8 @@
      <Compile Include="Assets\OVR\Editor\OVRPluginUpdaterStub.cs" />
      <Compile Include="Assets\OVR\Editor\OVRScreenshotWizard.cs" />
      <Compile Include="Assets\OVR\Scripts\Editor\OVRManagerEditor.cs" />
+     <Compile Include="Assets\TornadoBanditsStudio\Editor\TBS_EditorInitializer.cs" />
+     <Compile Include="Assets\TornadoBanditsStudio\Editor\TBS_PresentationWindow.cs" />
      <None Include="Assets\OVR\Resources\OVRMRUnlitTransparent.shader" />
      <None Include="Assets\OVR\Resources\OVRMRChromaKey.cginc" />
      <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
@@ -133,7 +135,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{9C2123C0-C65A-77AB-9864-3DBB3847BE7F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
