@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Mummy_controller : BaseAnimController
+public class Mummy_Controller : BaseAnimController
 {
-	[SerializeField]
-	private string _lookInStumik, _walk;
+	//[SerializeField]
+	/*private string _lookInStumik, _walk;*/
 	private NavMeshAgent mummy;
 	public Transform target;
 
@@ -26,6 +26,9 @@ public class Mummy_controller : BaseAnimController
 	void Update () {
 		_anim.SetTrigger (_runTr);
 		mummy.SetDestination (target.position);
+		if (mummy.remainingDistance < 1.0) {
+			_anim.SetTrigger (_atack_0_Tr);
+		}
 	}
 
 	/*protected override void BaseButtons ()
