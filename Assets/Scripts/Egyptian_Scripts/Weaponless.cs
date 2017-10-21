@@ -6,9 +6,21 @@ public class Weaponless : BaseAnimController
 	[SerializeField]
 	private string
 		_lookInStumik, _walk;
-
-
 	protected override void BaseButtons ()
+	{
+		//Hide buttons
+	}
+
+	void Start () {
+		_anim.SetTrigger (_runTr);
+	}
+
+	// Update is called once per frame
+	void Update () {
+		_anim.SetTrigger (_runTr);
+	}
+
+	/*protected override void BaseButtons ()
 	{
 		base.BaseButtons ();
 
@@ -19,7 +31,8 @@ public class Weaponless : BaseAnimController
 		if (GUI.Button (new Rect (10, 200, 100, 50), "Walk")) {
 			_anim.SetTrigger (_walk);
 		}
-	}
+	}*/
+
 
 }
 	
