@@ -1,11 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
 
-public class Weaponless : BaseAnimController
+public class Mummy_controller : BaseAnimController
 {
 	[SerializeField]
-	private string
-		_lookInStumik, _walk;
+	private string _lookInStumik, _walk;
+	private NavMeshAgent mummy;
+	public Transform target;
+
 	protected override void BaseButtons ()
 	{
 		//Hide buttons
@@ -13,11 +18,14 @@ public class Weaponless : BaseAnimController
 
 	void Start () {
 		_anim.SetTrigger (_runTr);
+		mummy = GetComponent<NavMeshAgent>();
+
 	}
 
 	// Update is called once per frame
 	void Update () {
 		_anim.SetTrigger (_runTr);
+		mummy.SetDestination (target.position);
 	}
 
 	/*protected override void BaseButtons ()
