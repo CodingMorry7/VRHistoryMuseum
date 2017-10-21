@@ -6,16 +6,16 @@ using UnityEngine.AI;
 
 public class AI_Move : MonoBehaviour {
 
-	private NavMeshAgent theAgent;
+	private NavMeshAgent mummy;
 	public Transform target;
 
 	// Use this for initialization
 	void Start () {
-		theAgent = GetComponent<NavMeshAgent> ();
+		mummy = GetComponent<NavMeshAgent>();
 	}
 
 	// Update is called once per frame
 	void Update () {
-		theAgent.SetDestination (target.position);
+		mummy.SetDestination (target.position);
 	}
 }
