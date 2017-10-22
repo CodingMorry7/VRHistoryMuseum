@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Egyptian_Level.unity
+- path: Assets/Boo.unity
   isLoaded: 1
   isActive: 1
