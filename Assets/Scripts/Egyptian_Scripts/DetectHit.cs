@@ -9,10 +9,7 @@ public class DetectHit : MonoBehaviour {
 
 
 	void OnTriggerEnter(Collider other){
-		//if(other.CompareTag("enemy")) {
-			healthBar.value = healthBar.value - 5;
-			Debug.Log ("Hi");
-		//}
-
+		healthBar.value = healthBar.value - 5;
 	}
+
 }

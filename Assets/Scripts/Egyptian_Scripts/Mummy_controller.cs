@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.AI;
 
-public class Mummy_Controller : Axe {
+public class Mummy_controller : Axe {
 	//[SerializeField]
 	/*private string _lookInStumik, _walk;*/
 	private NavMeshAgent mummy;
@@ -17,7 +17,7 @@ public class Mummy_Controller : Axe {
 	void Start () {
 		_anim.SetTrigger (_runTr);
 		mummy = GetComponent<NavMeshAgent>();
-
+		mummy.SetDestination (target.position);
 	}
 
 	// Update is called once per frame
