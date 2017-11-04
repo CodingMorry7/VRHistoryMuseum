@@ -1,11 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.AI;
 
-public class Mummy_Controller : BaseAnimController
-{
+public class Mummy_Controller : Axe {
 	//[SerializeField]
 	/*private string _lookInStumik, _walk;*/
 	private NavMeshAgent mummy;
@@ -27,7 +25,7 @@ public class Mummy_Controller : BaseAnimController
 		_anim.SetTrigger (_runTr);
 		mummy.SetDestination (target.position);
 		if (mummy.remainingDistance < 1.0) {
-			_anim.SetTrigger (_atack_0_Tr);
+			_anim.SetTrigger (_atack_1);
 		}
 	}
 
