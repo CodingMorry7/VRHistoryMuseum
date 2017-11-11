@@ -1731,11 +1731,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35faa87a9e119424dbaaa78dbe2dad60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _runTr: Run
-  _atack_0_Tr: Atack_0
-  _dieTr: Die
-  _gd_Tr: Gd
-  _atack_1: Atack_1
+  _runTr: 52756e
+  _atack_0_Tr: 417461636b5f30
+  _dieTr: 446965
+  _gd_Tr: 4764
+  _atack_1: 417461636b5f31
 --- !u!137 &13700698
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

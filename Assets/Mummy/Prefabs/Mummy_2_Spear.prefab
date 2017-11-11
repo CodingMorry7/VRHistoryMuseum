@@ -1760,11 +1760,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 860ecc563e4b8f64ab6efb8696500095, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _runTr: Run
-  _atack_0_Tr: Atack
-  _dieTr: Die
-  _gd_Tr: Gd
-  _threaten: Threaten
+  _runTr: 52756e
+  _atack_0_Tr: 417461636b
+  _dieTr: 446965
+  _gd_Tr: 4764
+  _threaten: 546872656174656e
 --- !u!137 &13703220
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
