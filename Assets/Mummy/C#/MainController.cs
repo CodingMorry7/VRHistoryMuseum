@@ -23,7 +23,7 @@ public class MainController : MonoBehaviour
 	private void Update ()
 	{
 		if (Input.GetKeyDown (KeyCode.S)) {
-			Application.CaptureScreenshot (Time.frameCount + ".png");
+			ScreenCapture.CaptureScreenshot (Time.frameCount + ".png");
 		}
 	}
 
