@@ -4,7 +4,7 @@ using System.Collections;
 public class Axe : BaseAnimController
 {
 	[SerializeField]
-	private string
+	protected string
 		_atack_1;
 
 	protected override void BaseButtons ()

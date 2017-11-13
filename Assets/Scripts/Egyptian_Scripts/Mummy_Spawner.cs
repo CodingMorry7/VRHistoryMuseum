@@ -12,7 +12,7 @@ public class Mummy_Spawner : MonoBehaviour {
 	void Start () {
 		InvokeRepeating ("Spawn", spawnTime, spawnTime);
 	}
-	
+
 	// Update is called once per frame
 	void Spawn () {
 		int spawnIndex = Random.Range (0, spawnpoints.Length);

@@ -18,7 +18,7 @@ public class BaseAnimController : MonoBehaviour
 
 	private void OnGUI ()
 	{
-		BaseButtons ();
+		//BaseButtons ();
 	}
 
 	protected virtual void BaseButtons ()
