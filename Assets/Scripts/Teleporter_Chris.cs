@@ -6,7 +6,7 @@ public class Teleporter_Chris : MonoBehaviour {
 
 	public GameObject Teleport_Mark;
 	public Transform Player;
-	public string OculusButton;
+	//public string OculusButton;
 	public float RayLength = 50f;
 	// Use this for initialization
   void ToTeleport () {

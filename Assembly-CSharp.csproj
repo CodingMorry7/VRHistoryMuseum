@@ -131,6 +131,7 @@
      <Compile Include="Assets\Scripts\Egyptian_Scripts\Mummy_controller.cs" />
      <Compile Include="Assets\Scripts\Egyptian_Scripts\Mummy_Spawner.cs" />
      <Compile Include="Assets\Scripts\GrabbingObjects.cs" />
+     <Compile Include="Assets\Scripts\Level_Teleporter.cs" />
      <Compile Include="Assets\Scripts\Teleporter_Chris.cs" />
      <Compile Include="Assets\Scripts\TouchController.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />

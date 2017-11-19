@@ -29,33 +29,30 @@ public class ArrowManager : MonoBehaviour {
 			Instance = null;
 	}
 
-	// Use this for initialization
-	void Start () {
-
-	}
-
 	// Update is called once per frame
 	void Update () {
-		//if(Input.GetAxis(OculusButton) == 1 && !hasArrow) {
 			attachArrow();
 			PullString();
-		//}
+
 	}
 	private void PullString(){
 		if(isAttached){
 			float dist = (stringStartPoint.transform.position - OVRInput.GetLocalControllerPosition(OculusController)).magnitude;
-			stringAttachPoint.transform.localPosition = stringStartPoint.transform.localPosition + new Vector3(3f* dist, 0f, 0f);
+			stringAttachPoint.transform.localPosition = stringStartPoint.transform.localPosition + new Vector3(2f*dist, 0f, 0f);
 
-			if (Input.GetAxis(ArrowManager.Instance.OculusButton) < 1){
-			Fire();
+		if (Input.GetAxis(ArrowManager.Instance.OculusButton) < 1){
+		Fire();
 			}
 		}
 	}
 
 private void Fire() {
+	float dist = (stringStartPoint.transform.position - OVRInput.GetLocalControllerPosition(OculusController)).magnitude;
 	currentArrow.transform.parent = null;
+  currentArrow.GetComponent<ArrowScript> ().Fired();
+
 	Rigidbody r = currentArrow.GetComponent<Rigidbody> ();
-	r.velocity = currentArrow.transform.forward * 10f;
+	r.velocity = currentArrow.transform.forward * 10f * dist;
 	r.useGravity = true;
 
 	stringAttachPoint.transform.position = stringStartPoint.transform.position;
@@ -67,7 +64,7 @@ private void Fire() {
 		if (currentArrow == null) {
 			currentArrow = Instantiate (arrowPrefab);
 			currentArrow.transform.parent = transform;
-			currentArrow.transform.localPosition = new Vector3(0f, 0f, .35f);
+			currentArrow.transform.localPosition = new Vector3(0f, 0f, .342f);
 			currentArrow.transform.rotation = Quaternion.identity;
 		}
 	}
