@@ -127,9 +127,7 @@
      <Compile Include="Assets\OVRInspector\Scripts\UIUtils\OVRProgressIndicator.cs" />
      <Compile Include="Assets\Scripts\ArrowManager.cs" />
      <Compile Include="Assets\Scripts\ArrowScript.cs" />
-     <Compile Include="Assets\Scripts\Egyptian_Scripts\DetectHit.cs" />
      <Compile Include="Assets\Scripts\Egyptian_Scripts\Mummy_controller.cs" />
-     <Compile Include="Assets\Scripts\Egyptian_Scripts\Mummy_Spawner.cs" />
      <Compile Include="Assets\Scripts\GrabbingObjects.cs" />
      <Compile Include="Assets\Scripts\Level_Teleport_Back.cs" />
      <Compile Include="Assets\Scripts\Level_Teleporter.cs" />
