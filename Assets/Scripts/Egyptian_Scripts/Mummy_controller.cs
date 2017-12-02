@@ -16,7 +16,7 @@ public class Mummy_controller : Axe {
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if(other.CompareTag("Sword")) {
+		if(other.name == "Sword") {
 			health -= 50;
 		}
 	}
@@ -42,7 +42,7 @@ public class Mummy_controller : Axe {
 			_anim.SetTrigger (_atack_1);
 		}
 
-		if (health <= 0) {
+		if (health <= 10) {
 			_anim.SetTrigger (_dieTr);
 			Wait();
 			Destroy(mummy);
