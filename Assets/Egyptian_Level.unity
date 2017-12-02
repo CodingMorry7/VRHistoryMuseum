@@ -2237,7 +2237,7 @@ MonoBehaviour:
   _gd_Tr: Gd
   _atack_1: Atack_1
   target: {fileID: 918379158}
-  spawnTime: 30
+  spawnTime: 10
 --- !u!1 &978344091
 GameObject:
   m_ObjectHideFlags: 0
@@ -4305,7 +4305,7 @@ MonoBehaviour:
   _gd_Tr: Gd
   _atack_1: Atack_1
   target: {fileID: 918379158}
-  spawnTime: 30
+  spawnTime: 10
 --- !u!136 &1595828303
 CapsuleCollider:
   m_ObjectHideFlags: 0

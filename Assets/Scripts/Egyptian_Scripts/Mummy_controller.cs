@@ -24,7 +24,7 @@ public class Mummy_controller : Axe {
 	IEnumerator Wait()
 	 {
 			 print(Time.time);
-			 yield return new WaitForSeconds(3);
+			 yield return new WaitForSeconds(2);
 			 print(Time.time);
 	 }
 
