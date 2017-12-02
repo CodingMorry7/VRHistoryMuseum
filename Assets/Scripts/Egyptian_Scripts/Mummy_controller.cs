@@ -6,7 +6,7 @@ using UnityEngine;
 public class Mummy_controller : Axe {
 	//[SerializeField]
 	/*private string _lookInStumik, _walk;*/
-	private NavMeshAgent mummy;
+	protected NavMeshAgent mummy;
 	public Transform target;
 	private int health = 100;
 
