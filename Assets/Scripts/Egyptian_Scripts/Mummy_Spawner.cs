@@ -15,8 +15,7 @@ public class Mummy_Spawner : MonoBehaviour {
 
 	// Update is called once per frame
 	void Spawn () {
-		int spawnIndex = Random.Range (0, spawnpoints.Length);
-
-		Instantiate (mummy, spawnpoints [spawnIndex].position, spawnpoints [spawnIndex].rotation);
+		Instantiate (mummy, spawnpoints Vector3(0, 0.1, -2.3), spawnpoints [spawnIndex].rotation);
+		Instantiate (mummy, spawnpoints Vector3(-48.67, 0.1, -2.3), spawnpoints [spawnIndex].rotation);
 	}
 }
