@@ -663,7 +663,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Teleport_Mark: {fileID: 0}
   Player: {fileID: 4127452830676104}
-  OculusButton: 
   RayLength: 50
 --- !u!114 &114481483689825958
 MonoBehaviour:
@@ -694,6 +693,10 @@ MonoBehaviour:
   grabMask:
     serializedVersion: 2
     m_Bits: 256
+  levelMask:
+    serializedVersion: 2
+    m_Bits: 0
+  LevelName: 
 --- !u!114 &114855494981413878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -711,3 +714,7 @@ MonoBehaviour:
   grabMask:
     serializedVersion: 2
     m_Bits: 256
+  levelMask:
+    serializedVersion: 2
+    m_Bits: 0
+  LevelName: 

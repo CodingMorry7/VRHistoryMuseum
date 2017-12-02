@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Level_Teleporter : MonoBehaviour {
 
@@ -10,7 +11,7 @@ public class Level_Teleporter : MonoBehaviour {
 	public float RayLength = 30f;
 	// Use this for initialization
 	public string LevelName;
-	public AudioSource TeleportLevelSound;
+	//public AudioSource TeleportLevelSound;
 
 	// Update is called once per frame
 	void Update () {

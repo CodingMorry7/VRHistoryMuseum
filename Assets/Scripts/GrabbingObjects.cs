@@ -9,16 +9,15 @@ public class GrabbingObjects : MonoBehaviour {
 	private bool ObjectGrabbed;
 	public float grabRadius;
 	public LayerMask grabMask;
-	public LayerMask levelMask;
 	private Quaternion LastRotation;
 	private Quaternion currentRotation;
-	public string LevelName;
+
 
 	void ObjectIsGrabbed(){
 		ObjectGrabbed = true;
 
 		RaycastHit[] hits;
-		hits = Physics.SphereCastAll(transform.position, grabRadius, transform.forward, 0f, levelMask);
+		hits = Physics.SphereCastAll(transform.position, grabRadius, transform.forward, 0f, grabMask);
 
 		//We hit something and goes into the if statement
 		if(hits.Length > 0){
@@ -31,7 +30,7 @@ public class GrabbingObjects : MonoBehaviour {
 			//PlayableObject.GetComponent<Rigidbody>().isKinematic = true;
 			PlayableObject.transform.position = transform.position;
 			PlayableObject.transform.parent = transform;
-			Application.LoadLevel(LevelName);
+			//Application.LoadLevel(LevelName);
 		}
 	}
 	// Update is called once per frame
