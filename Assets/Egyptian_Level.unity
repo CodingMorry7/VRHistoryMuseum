@@ -2215,29 +2215,6 @@ Transform:
   m_Father: {fileID: 1865265189}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &974369990 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1850828328322442, guid: 317896d53dd8c465b9eed9226760671a,
-    type: 2}
-  m_PrefabInternal: {fileID: 1600377904}
---- !u!114 &974369991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 974369990}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3a7065b8b046bf92ff8dc244bb2b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _runTr: Run
-  _atack_0_Tr: Atack_0
-  _dieTr: Die
-  _gd_Tr: Gd
-  _atack_1: Atack_1
-  target: {fileID: 918379158}
-  spawnTime: 10
 --- !u!1 &978344091
 GameObject:
   m_ObjectHideFlags: 0
@@ -3462,9 +3439,11 @@ MonoBehaviour:
   _atack_0_Tr: 
   _dieTr: 
   _gd_Tr: 
+  _anim: {fileID: 0}
   _atack_1: 
+  mummy: {fileID: 0}
   target: {fileID: 0}
-  spawnTime: 4
+  health: 100
 --- !u!4 &1363879346
 Transform:
   m_ObjectHideFlags: 0
@@ -4288,24 +4267,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 1
   m_ObstacleAvoidanceType: 4
---- !u!114 &1595828299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1595828296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d3a7065b8b046bf92ff8dc244bb2b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _runTr: Run
-  _atack_0_Tr: Atack_0
-  _dieTr: Die
-  _gd_Tr: Gd
-  _atack_1: Atack_1
-  target: {fileID: 918379158}
-  spawnTime: 10
 --- !u!136 &1595828303
 CapsuleCollider:
   m_ObjectHideFlags: 0
