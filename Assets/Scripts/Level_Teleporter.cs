@@ -11,6 +11,7 @@ public class Level_Teleporter : MonoBehaviour {
 	public float RayLength = 30f;
 	// Use this for initialization
 	public string LevelName;
+	public string LevelName2;
 	//public AudioSource TeleportLevelSound;
 
 	// Update is called once per frame
@@ -18,7 +19,18 @@ public class Level_Teleporter : MonoBehaviour {
 		Ray ray = new Ray(transform.position, transform.forward);
 		RaycastHit hit;
 		if(Physics.Raycast(ray, out hit, RayLength)) {
-			if(hit.collider.tag == "EgyptLevel" ) {
+			if(hit.collider.tag == "EgyptLevel") {
+				if(!Teleport_Lvl_Mark.activeSelf)  {
+					Teleport_Lvl_Mark.SetActive(true);
+				}
+				Teleport_Lvl_Mark.transform.position = hit.point;
+				if(OVRInput.GetDown(OVRInput.Button.One)){
+					//TeleportLevelSound.Play();
+					Application.LoadLevel(LevelName);
+				}
+			}
+			//Check the other Level 2
+			if(hit.collider.tag == "BowAndArrowLevel") {
 				if(!Teleport_Lvl_Mark.activeSelf)  {
 					Teleport_Lvl_Mark.SetActive(true);
 				}
