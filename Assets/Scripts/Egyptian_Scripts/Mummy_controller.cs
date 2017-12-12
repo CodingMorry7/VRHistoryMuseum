@@ -1,34 +1,23 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.AI;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class Mummy_controller : Axe {
-	//[SerializeField]
-	/*private string _lookInStumik, _walk;*/
-	private NavMeshAgent mummy;
-	public Transform target;
+public class Weaponless : BaseAnimController
+{
+	[SerializeField]
+	private string
+		_lookInStumik, _walk;
 
 	protected override void BaseButtons ()
 	{
-		//Hide the buttons
-	}
+		base.BaseButtons ();
 
-	void Start () {
-		_anim.SetTrigger (_runTr);
-		mummy = GetComponent<NavMeshAgent>();
-		mummy.SetDestination (target.position);
-	}
+		if (GUI.Button (new Rect (10, 140, 100, 50), "LookInStumik")) {
+			_anim.SetTrigger (_lookInStumik);
+		}
 
-	// Update is called once per frame
-	void Update () {
-		_anim.SetTrigger (_runTr);
-		mummy.SetDestination (target.position);
-		if (mummy.remainingDistance < 1.0) {
-			_anim.SetTrigger (_atack_1);
+		if (GUI.Button (new Rect (10, 200, 100, 50), "Walk")) {
+			_anim.SetTrigger (_walk);
 		}
 	}
-		
-
 
 }
