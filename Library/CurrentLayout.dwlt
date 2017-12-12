@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 11
+  controlID: 114
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 112
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 113
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,7 +260,7 @@ MonoBehaviour:
   - {fileID: 17}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -406,19 +406,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Mummy/Prefabs
+    - Assets/Pictures
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Mummy/Prefabs
+  - Assets/Pictures
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Ic3_Cool_Morry\Desktop\VR_GAME_PROJECT\VRHistoryMuseum
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 130}
-    m_SelectedIDs: 7c2d0000
-    m_LastClickedID: 11644
-    m_ExpandedIDs: 0000000000280000182a00002c2a0000a02a0000fc2a0000122d0000122e0000342e00002633000028330000163a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 34}
+    m_SelectedIDs: 12460000
+    m_LastClickedID: 17938
+    m_ExpandedIDs: 00000000022800001a2a00002e2a0000fe2a0000142d0000283300003c3a0000a03b0000a23b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -446,7 +446,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000000280000182a00002c2a0000a02a0000fc2a0000122d0000122e0000342e00002633000028330000163a0000
+    m_ExpandedIDs: 00000000022800001a2a00002e2a0000a22a0000fe2a0000142d0000142e0000362e0000283300002a3300003c3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000000000020350000f828000080070000443c00005e3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -564,7 +564,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 18fcffff00000000
+    m_ExpandedIDs: 18fcffff0000000028360000a6360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -619,9 +619,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 1
   m_Position:
-    m_Target: {x: -6.5672655, y: 8.529775, z: 6.8004775}
+    m_Target: {x: -1.2757809, y: -1.6055555, z: 7.746955}
     speed: 2
-    m_Value: {x: -6.5672655, y: 8.529775, z: 6.8004775}
+    m_Value: {x: -1.2757809, y: -1.6055555, z: 7.746955}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -644,13 +644,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.11886044, y: -0.8472761, z: 0.21355052, w: -0.47158426}
+    m_Target: {x: 0.12326345, y: -0.071659416, z: 0.008925355, w: 0.98974305}
     speed: 2
-    m_Value: {x: -0.11886044, y: -0.8472761, z: 0.21355052, w: -0.47158426}
+    m_Value: {x: 0.123263456, y: -0.07165942, z: 0.008925356, w: 0.9897431}
   m_Size:
-    m_Target: 13.665426
+    m_Target: 46.957718
     speed: 2
-    m_Value: 13.665426
+    m_Value: 46.957718
   m_Ortho:
     m_Target: 0
     speed: 2
