@@ -1561,10 +1561,6 @@ MonoBehaviour:
   grabMask:
     serializedVersion: 2
     m_Bits: 256
-  levelMask:
-    serializedVersion: 2
-    m_Bits: 0
-  LevelName: 
 --- !u!114 &114591615686462474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1582,10 +1578,6 @@ MonoBehaviour:
   grabMask:
     serializedVersion: 2
     m_Bits: 256
-  levelMask:
-    serializedVersion: 2
-    m_Bits: 0
-  LevelName: 
 --- !u!114 &114728057054165368
 MonoBehaviour:
   m_ObjectHideFlags: 1
