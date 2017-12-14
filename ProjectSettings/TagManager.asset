@@ -12,6 +12,9 @@ TagManager:
   - FxTemporaire
   - Target
   - Arrow
+  - projectile
+  - NinjaStar
+  - Hand
   layers:
   - Default
   - TransparentFX
