@@ -9,6 +9,9 @@ TagManager:
   - enemy
   - BowAndArrowLevel
   - JapanLevel
+  - FxTemporaire
+  - Target
+  - Arrow
   layers:
   - Default
   - TransparentFX
