@@ -170,6 +170,7 @@
      <Compile Include="Assets\Scripts\Teleporter_Chris.cs" />
      <Compile Include="Assets\Scripts\TouchController.cs" />
      <Compile Include="Assets\Sword\Rotation.cs" />
+     <Compile Include="Assets\TakeBackToMesuem.cs" />
      <Compile Include="Assets\TornadoBanditsStudio\Low Poly Free Pack\Scripts\TBS_CameraMovement.cs" />
      <Compile Include="Assets\TornadoBanditsStudio\Low Poly Free Pack\Water\TBS_Water.cs" />
      <Compile Include="Assets\VRToolsFolder\OVR\Scripts\Composition\OVRCameraComposition.cs" />

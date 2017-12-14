@@ -9,7 +9,7 @@ public class Mummy_controller : Axe {
 	protected NavMeshAgent mummy;
 	public Transform target;
 	private int health = 100;
-
+	public AudioSource SoundEffect;
 	protected override void BaseButtons ()
 	{
 		//Hide the buttons
@@ -17,6 +17,7 @@ public class Mummy_controller : Axe {
 
 	void OnTriggerEnter(Collider other) {
 		if(other.name == "Sword") {
+			SoundEffect.Play();
 			health -= 50;
 		}
 	}
