@@ -51,8 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\HitByArrow.cs" />
-     <Compile Include="Assets\HitByStar.cs" />
      <Compile Include="Assets\JapanLevel\eWolf\eWolfFences\Scripts\Builders\BrickWallBuilder.cs" />
      <Compile Include="Assets\JapanLevel\eWolf\eWolfFences\Scripts\Builders\BrickWallTowersBuilder.cs" />
      <Compile Include="Assets\JapanLevel\eWolf\eWolfFences\Scripts\Builders\FarmFenceBuilder.cs" />
@@ -112,8 +110,6 @@
      <Compile Include="Assets\JapanLevel\eWolf\eWolfFences\Scripts\UVHelpers\CuboidMeshUVs.cs" />
      <Compile Include="Assets\JapanLevel\eWolf\eWolfFences\Scripts\WallBuilder.cs" />
      <Compile Include="Assets\JapanLevel\eWolf\eWolfFences\Scripts\WallDetails.cs" />
-     <Compile Include="Assets\LevelTeleportJapan.cs" />
-     <Compile Include="Assets\LevelTeleportMedieval.cs" />
      <Compile Include="Assets\Mummy\C#\Axe.cs" />
      <Compile Include="Assets\Mummy\C#\BaseAnimController.cs" />
      <Compile Include="Assets\Mummy\C#\CameraController.cs" />
@@ -160,17 +156,21 @@
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
      <Compile Include="Assets\NinjaStarThrow.cs" />
-     <Compile Include="Assets\PlayHandSound.cs" />
      <Compile Include="Assets\Scripts\ArrowManager.cs" />
      <Compile Include="Assets\Scripts\ArrowScript.cs" />
      <Compile Include="Assets\Scripts\Egyptian_Scripts\Mummy_controller.cs" />
      <Compile Include="Assets\Scripts\GrabbingObjects.cs" />
+     <Compile Include="Assets\Scripts\HitByArrow.cs" />
+     <Compile Include="Assets\Scripts\HitByStar.cs" />
      <Compile Include="Assets\Scripts\Level_Teleport_Back.cs" />
      <Compile Include="Assets\Scripts\Level_Teleporter.cs" />
+     <Compile Include="Assets\Scripts\LevelTeleportJapan.cs" />
+     <Compile Include="Assets\Scripts\LevelTeleportMedieval.cs" />
+     <Compile Include="Assets\Scripts\PlayHandSound.cs" />
+     <Compile Include="Assets\Scripts\TakeBackToMesuem.cs" />
      <Compile Include="Assets\Scripts\Teleporter_Chris.cs" />
      <Compile Include="Assets\Scripts\TouchController.cs" />
      <Compile Include="Assets\Sword\Rotation.cs" />
-     <Compile Include="Assets\TakeBackToMesuem.cs" />
      <Compile Include="Assets\TornadoBanditsStudio\Low Poly Free Pack\Scripts\TBS_CameraMovement.cs" />
      <Compile Include="Assets\TornadoBanditsStudio\Low Poly Free Pack\Water\TBS_Water.cs" />
      <Compile Include="Assets\VRToolsFolder\OVR\Scripts\Composition\OVRCameraComposition.cs" />
